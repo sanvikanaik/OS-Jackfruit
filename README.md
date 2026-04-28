@@ -93,43 +93,44 @@ sudo rm -f /tmp/mini_runtime.sock
 
 ### Screenshot 1 — Multi-container Supervision
 > Two containers (alpha, beta) running under one supervisor process.
+> <img width="372" height="97" alt="Screenshot 2026-04-17 100839" src="https://github.com/user-attachments/assets/92deb788-fd4a-4bd9-88af-9337d3332134" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 2 — Metadata Tracking
 > Output of `ps` command showing container ID, PID, and state.
+> <img width="386" height="64" alt="Screenshot 2026-04-17 101525" src="https://github.com/user-attachments/assets/1f60ada3-3db7-45dd-8b50-8dbf06af66fc" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 3 — Bounded Buffer Logging
 > Log file contents captured through the logging pipeline.
+> <img width="381" height="38" alt="Screenshot 2026-04-17 101623" src="https://github.com/user-attachments/assets/4f7489dc-9e64-45f7-aeca-9ad57d78676c" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 4 — CLI and IPC
 > CLI command being issued and supervisor responding via UNIX socket.
+> <img width="371" height="215" alt="Screenshot 2026-04-17 101815" src="https://github.com/user-attachments/assets/b124b96a-3c91-4a6b-8961-5c56ba2ac0f1" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 5 — Soft Limit Warning
 > dmesg output showing soft limit warning for a container.
+> <img width="368" height="210" alt="Screenshot 2026-04-15 074150" src="https://github.com/user-attachments/assets/801bb7cd-2365-4b34-824b-97de9a855507" />
 
-[INSERT SCREENSHOT]
+
 
 ### Screenshot 6 — Hard Limit Enforcement
 > dmesg output showing container killed after exceeding hard limit.
+> <img width="367" height="98" alt="Screenshot 2026-04-17 102223" src="https://github.com/user-attachments/assets/dd561a78-4ba3-4c81-b2e2-ec4374cc5062" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 7 — Scheduling Experiment
 > top output showing CPU usage difference between nice=0 and nice=10.
+> <img width="376" height="215" alt="Screenshot 2026-04-17 102636" src="https://github.com/user-attachments/assets/68c1a52c-fa7e-46fe-9fd4-bbe754d619d1" />
 
-[INSERT SCREENSHOT]
 
 ### Screenshot 8 — Clean Teardown
 > Evidence of clean shutdown with no zombie processes.
+> <img width="375" height="158" alt="Screenshot 2026-04-17 103058" src="https://github.com/user-attachments/assets/619b5607-a57a-4100-97c0-164d7f4de198" />
 
-[INSERT SCREENSHOT]
 
 ---
 
